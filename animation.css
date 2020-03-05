@@ -1,0 +1,99 @@
+@keyframes example{
+    from {
+        background-color: aliceblue;
+    }
+    to {
+        background-color: darkolivegreen;
+    }
+}
+
+
+
+
+
+
+#FirstDiv{
+    width:150px;
+    height: 150px;
+    background-color: aliceblue;
+    margin:20px;
+    animation: example 2s infinite;
+}
+@keyframes example2{
+    0%{
+    background-color: blanchedalmond;
+    }
+    25%{
+    background-color: floralwhite;
+    }
+    50%{
+        background-color: greenyellow;
+    }
+    100%{
+    background-color:turquoise ;
+    }
+}
+#SecondDiv{
+    width: 150px;
+    height:150px;
+    background-color: blanchedalmond;
+    margin:20px;
+    animation: example2 1s infinite;
+
+}
+@keyframes example3{
+    0%{
+    background-color: indianred;
+    left:0px;
+    top:0px;
+
+    }
+    25%{
+    background-color: khaki;
+    left:200px;
+    top:0px;
+    }
+    50%{
+    background-color: lightgoldenrodyellow;
+    left:200px;
+    top:200px;
+    }
+    75%{
+    background-color: lightslategrey;
+    left:0px;
+    top:200px;
+    }
+    100%{
+    background-color: mediumspringgreen;
+    left:0px;
+    top:0px;
+    }
+}
+#ThirdDiv{
+    width:150px;
+    height:150px;
+    background-color: cornflowerblue;
+    margin:20px;
+    animation: example3 1s infinite;
+    position: relative;
+
+}
+@keyframes example4 {
+    from{
+        transfor:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+#FourthDiv{
+    width:150px;
+    height:150px;
+    background-color: saddlebrown;
+    margin:500px;
+    animation: example4 1s linear infinite;
+    
+
+}
